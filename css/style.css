@@ -1,19 +1,21 @@
 html{
     font-family: 'Quicksand', sans-serif;
     font-weight: 600;
-    background-color: rgb(250, 250, 240);
- 
+    background-color: rgb(252, 251, 216);
+    scroll-behavior: smooth;
+    scroll-padding: 10rem;
+
 }
-
-
 nav {
      display: flex;
 
 
     gap: 2px;
-background-color: beige;
-border-bottom: 2px solid rgb(145, 130, 0);
+background-color: rgb(240, 240, 186);
+border-bottom: 3px solid rgb(145, 130, 0);
 margin-bottom: 100px;
+position: sticky;
+top: 0;
 
 }
 a nav{
@@ -24,24 +26,23 @@ a nav{
     text-decoration: none;
     color: rgb(0, 0, 0);
 font-weight: 500;
-padding: 25px 25px 25px 25px;
+padding: 16px 25px 16px 25px;
 
 
 }
 .knop1:hover{
     font-weight: 500;
     background-color: rgb(145, 130, 0);
-    padding: 25px 25px 25px 25px;
+    padding: 16px 25px 16px 25px;
     color: rgb(255, 255, 255);
 }
 .space{
     margin-left: 10vw;
 }
 #container{
+
     width: 80vw;
     margin: auto; 
-
-    
 }
 h1{
 
@@ -56,8 +57,8 @@ div h3{
 }
 .knop2{
 
-background-color: rgb(65, 82, 138);
-border: 3px solid rgb(65, 82, 138);
+background-color: rgb(71, 138, 65);
+border: 3px solid rgb(71, 138, 65);
 color:azure;
 padding: 15px;
 font-weight:500;
@@ -67,8 +68,10 @@ text-align: center;
     
 }
 .knop2:hover{
-    background-color: rgb(232, 234, 240);
-    border: 3px solid rgb(65, 82, 138);
+
+    background-color: rgb(224, 255, 184);
+    background-image: url("https://www.animationsoftware7.com/img/agifs/leaf_fall_4.gif");
+    border: 3px solid rgb(71, 138, 65);
     color:black;    
     font-weight:600;
 font-size:120%;
@@ -78,39 +81,44 @@ border: 0px solid black;
 margin: 0;
 
 }
-main{
-    border: 0px solid black;
-  
-}
-img{
+
+.mainpic{
     width: 900px;
     height: auto;
+
 }
 .naast{
     display: flex;
     flex-direction: row;
-    gap: 60px;
+    gap: 0px;
 
     
 }
 .onder{
+
     display: flex;
     flex-direction: column;
-    gap: 40px
+   padding-left: 100px;
+padding-right: 100px; 
+
+border: 15px solid transparent;
+border-image: linear-gradient(0deg, #c0b4a6, rgb(255, 255, 255)) 1;
+border-left: 0;
 }
 
 .line{
 
 margin-top: 100px;
-border-bottom: 2px solid rgb(145, 130, 0);
+border-bottom: 3px solid rgb(145, 130, 0);
 margin-bottom: 100px;   
 }
 
 .onder2{
     color: black;
-    background-color: beige;
+    background-color: rgb(240, 240, 186);
     display: flex;
     flex-direction: column;
+    border-radius: 10px;
 padding: 40px 120px 40px 60px;
 margin-right: 40px;
     gap: 40px
@@ -170,15 +178,18 @@ margin: 0px;
     flex-direction: row;
     gap: 30px;
     justify-content: center;
+
 }
 footer{
     display: flex;
     justify-content: center;
     gap: 100px;
-    background-color: rgb(1, 0, 71);
+    background-color: rgb(46, 39, 0);
     border-top: 0px solid rgb(255, 255, 255);
     padding-top: 40px;
     padding-bottom: 40px;
+
+
 }
 
 .knop3{
@@ -199,13 +210,15 @@ max-width: 8vw;
     width: 100px;
 
     margin-left: 30%;
+    border-radius: 15px;
 
 }
 .logopic{
     height: 50px;
     width: auto;
     margin-right: 10px;
-    margin-top: 8px;
+    margin-top: 3px;
+    
 }
 .centertekst{
 
