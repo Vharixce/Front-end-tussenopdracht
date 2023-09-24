@@ -10,16 +10,18 @@ nav {
      display: flex;
 
 
-    gap: 2px;
+    gap: 0px;
 background-color: rgb(240, 240, 186);
-border-bottom: 3px solid rgb(145, 130, 0);
+border-bottom: 3px solid rgb(71, 138, 65);
 margin-bottom: 100px;
 position: sticky;
 top: 0;
 
+
 }
 a nav{
     margin-left: 200px;
+    
 }
 
 .knop1{
@@ -27,17 +29,24 @@ a nav{
     color: rgb(0, 0, 0);
 font-weight: 500;
 padding: 16px 25px 16px 25px;
+cursor: pointer;
+transition: 0.3s ease-in-out;
+background-image: linear-gradient( rgb(240, 240, 186)50%, rgb(71, 138, 65)50%);
+background-size: 200px 200px;
 
 
 }
 .knop1:hover{
     font-weight: 500;
-    background-color: rgb(145, 130, 0);
+    top: 20px;
+    background-position: 50px -90px;
     padding: 16px 25px 16px 25px;
     color: rgb(255, 255, 255);
+
 }
 .space{
     margin-left: 10vw;
+
 }
 #container{
 
@@ -65,6 +74,8 @@ font-weight:500;
 font-size:120%;
 border-radius: 10px;
 text-align: center;
+transition: 0.5s;
+cursor: pointer;
     
 }
 .knop2:hover{
@@ -73,8 +84,8 @@ text-align: center;
     background-image: url("https://www.animationsoftware7.com/img/agifs/leaf_fall_4.gif");
     border: 3px solid rgb(71, 138, 65);
     color:black;    
-    font-weight:600;
 font-size:120%;
+
 }
 body{
 border: 0px solid black;
@@ -109,7 +120,7 @@ border-left: 0;
 .line{
 
 margin-top: 100px;
-border-bottom: 3px solid rgb(145, 130, 0);
+border-bottom: 3px solid rgb(71, 138, 65);
 margin-bottom: 100px;   
 }
 
@@ -182,12 +193,12 @@ margin: 0px;
 }
 footer{
     display: flex;
-    justify-content: center;
     gap: 100px;
     background-color: rgb(46, 39, 0);
     border-top: 0px solid rgb(255, 255, 255);
     padding-top: 40px;
     padding-bottom: 40px;
+    justify-content: center;
 
 
 }
@@ -198,12 +209,16 @@ footer{
 font-weight: 300;
 min-width: 8vw;
 max-width: 8vw;
-
+transition: 0.5s;
+cursor: pointer;
 }
 .knop3:hover{
-    font-weight: 700;
+    color:rgb(0, 0, 0);
     min-width: 8vw;
     max-width: 8vw;
+    font-weight: 500;
+    text-shadow: 0px 0px 10px #ffffff;
+
 }
 .smallpic{
     height: 100px;
